@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+#main{
+    background:aquamarine;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
+#wrapper{
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    width: 26%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #wrapper{ width: 70%;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    #wrapper{ width: 60%;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    #wrapper{ width: 45%;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    #wrapper{ width: 35%;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    #wrapper{ width: 26%;}
+  }
+#result {
+    width: 90%;
+    height:100px;
+    font-size: 40px;
+    border-radius: 20px 20px 20px 20px;
+    border-color:transparent;
+  margin-top: 50px;
+}
+/* #history{
+  color: rgb(173, 169, 169);
+  margin-top: 50px;
+  height:75px;
+  width: 90%;
+  font-size: 40px;
+  border-radius: 20px 30 61);
+    color: white;
+} */
+.upper-btn{
+    width:70px;
+    height: 80px; 
+    border-radius:50%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    border: transparent;
+}
+.last-btn{
+    width:70px;
+    height: 80px; 
+    border-radius:50%;
+    margin-right: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    border: transparent;
+}
+#last-0-btn{
+    width:150px;
+    height: 80px; 
+    border-radius:15%;
+    margin-right: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    border: transparent;
+}
+.orange{
+    background-color:#f5ac36;
+    color:white;
+}
+
+.btn-grey{
+    background-color:#c4c1bb;
+}
+#light-orange{
+    background-color:#f7d48d;
+    color:white;
+}
+.dark-grey{
+    background-color:#757371;
+}

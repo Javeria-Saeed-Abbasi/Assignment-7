@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+ <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div id="wrapper">
+            <div id="input">
+                <form>
+                    <input type="text" class="result" id="result" dir="rtl" onfocus="this.style.borderColor='yellow'"/>                
+                </form>            
+            </div>
+            <br/>
+        <div id="keys">
+            <div>
+                <button type="button" class="upper-btn btn-grey" onclick="clearBtn()">AC</button>
+                <button type="button" class="upper-btn btn-grey" onclick="getNumber('/')"> / </button>
+                <button type="button" class="upper-btn btn-grey" onclick="backSpace()"><img src="images/backspace-512.png" width="30px" height="30px"/></button>
+                <button type="button" class="upper-btn orange"onclick="getNumber('%')">%</button>
+            </div>
+
+            <div>
+                <button type="button" class="upper-btn dark-grey" onclick="getNumber('7')">7</button>
+                <button type="button" class="upper-btn dark-grey"onclick="getNumber('8')" >8</button>
+                <button type="button" class="upper-btn dark-grey" onclick="getNumber('9')">9</button>
+                <button type="button" class="upper-btn orange" onclick="getNumber('*')">*</button>
+            </div>
+
+            <div>
+                <button type="button" class="upper-btn dark-grey" onclick="getNumber('4')">4</button>
+                <button type="button" class="upper-btn dark-grey" onclick="getNumber('5')">5</button>
+                <button type="button" class="upper-btn dark-grey" onclick="getNumber('6')">6</button>
+                <button type="button" class="upper-btn" id="light-orange" onclick="getNumber('-')">-</button>
+            </div>
+
+            <div>
+                <button type="button" class="upper-btn dark-grey"onclick="getNumber('1')">1</button>
+                <button type="button" class="upper-btn dark-grey" onclick="getNumber('2')">2</button>
+                <button type="button" class="upper-btn dark-grey" onclick="getNumber('3')">3</button>
+                <button type="button" class="upper-btn orange" onclick="getNumber('+')">+</button>
+            </div>
+
+            <div>
+                <button type="button" class="last-btn dark-grey" onclick="getNumber('.')">.</button>
+                <button type="button" id="last-0-btn" class="dark-grey" onclick="getNumber('0')">0</button>
+                <button type="button" class="last-btn orange" onclick="getResult()">=</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
